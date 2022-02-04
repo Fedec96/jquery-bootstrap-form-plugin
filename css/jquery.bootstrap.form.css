@@ -1,0 +1,40 @@
+/*!
+ * BootstrapForm
+ * Copyright 2021 Federico Cappelletti
+ * Licensed under MIT (https://github.com/Fedec96/jquery-bootstrap-form-plugin/blob/main/LICENSE.md)
+ */
+
+
+/* ==========================================================================
+   Style for the forms generated with the forms plugin.
+   ========================================================================== */
+
+
+/* Buttons
+   ========================================================================== */
+
+form .form-buttons .btn:not(:last-child) {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    form .form-buttons .btn {
+        width: 100%;
+    }
+
+    form .form-buttons .btn:not(:first-child) {
+        margin-top: 10px;
+    }
+
+    form .form-buttons .btn:not(:last-child) {
+        margin-right: 0;
+    }
+}
+
+/* Checkboxes and radios
+   ========================================================================== */
+
+input[type="checkbox"]:hover,
+input[type="radio"]:hover {
+    cursor: pointer;
+}
