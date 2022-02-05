@@ -60,7 +60,7 @@ Retrieve a JSON of all the inputs' values, paired with their respective ID.
 ### Example
 
 ```js
-$('#form').bootstrapForm('getFields');
+const data = $('#form').bootstrapForm('getFields');
 ```
 
 Example output cheatsheet:
